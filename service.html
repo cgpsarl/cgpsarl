@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Constructify" />
+    <meta name="author" content="Agaba Francis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CGP Sarl | Accueil</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" />
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet" />
+    <style>
+        /* Ajoutez ici les styles CSS pour la navigation */
+        body.home nav {
+            background: transparent; /* Fond transparent sur la page d'accueil */
+        }
+
+        body:not(.home) nav {
+            background: #fff; /* Fond blanc sur les autres pages */
+        }
+
+        @media (max-width: 768px) {
+            #navbar {
+                display: none; /* Cache le menu desktop */
+            }
+            .constructify_tm_mobile_menu_wrap {
+                display: block; /* Affiche le menu mobile */
+            }
+        }
+        @media (min-width: 769px) {
+            .constructify_tm_mobile_menu_wrap {
+                display: none; /* Cache le menu mobile */
+            }
+            #navbar {
+                display: flex; /* Affiche le menu desktop */
+                align-items: center; /* Centre verticalement */
+            }
+            #navbar .logo {
+                margin-right: auto; /* Espace entre le logo et le menu */
+            }
+        }
+        .menu_list_wrap {
+            display: none; /* Cache par défaut le menu mobile */
+        }
+        .menu_list_wrap.active {
+            display: block; /* Affiche lorsque la classe active est ajoutée */
+        }
+    </style>
+</head>
+
+<body class="home"> <!-- Ajoutez 'home' si vous êtes sur la page d'accueil -->
+<header>
+    <div class="container">
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#"><img src="img/mobile-logo.png" alt="Logo" style="height: 50px;"></a> <!-- Ajoutez ici le chemin de votre logo -->
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A Propos</a></li>
+                <li><a href="service.html">Nos services</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="main_rightpart">
+            <div class="constructify_tm_mobile_menu_wrap">
+                <div class="topbar_wrap">
+                    <div class="inner_wrap"></div>
+                    <div class="bg"></div>
+                </div>
+                <div class="hamburger_wrap">
+                    <div class="logo_wrap">
+                        <div class="logo">
+                            <a href="#"><img src="img/mobile-logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="trigger_wrap">
+                        <div class="hamburger hamburger--collapse-r">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="nav">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="service.html">Nos services</a></li>
+                        <li><a href="project.html">Projets</a></li>
+                        <!-- <li><a href="blog.html">Blog</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    // JavaScript pour ajouter la classe 'fixed' au header après le scroll
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        if (window.scrollY > 0) {
+            header.classList.add('fixed');
+        } else {
+            header.classList.remove('fixed');
+        }
+    });
+
+    // JavaScript pour afficher/cacher le menu mobile
+    document.querySelector('.hamburger_wrap .trigger_wrap').addEventListener('click', function() {
+        var menuList = document.querySelector('.menu_list_wrap');
+        menuList.classList.toggle('active');
+    });
+</script>
+</body>
+
+   
+  <script>
+    // JavaScript pour ajouter la classe 'fixed' au header après le scroll
+    window.addEventListener('scroll', function() {
+      var header = document.querySelector('header');
+      if (window.scrollY > 0) {
+        header.classList.add('fixed');
+      } else {
+        header.classList.remove('fixed');
+      }
+    });
+  </script>
+  
+          <!-- SERVICES -->
+          <div class="constructify_tm_section">
+            <div class="constructify_tm_main_title_holder">
+              <div class="container">
+                <div class="title_holder">
+                  <h3>Nos Services</h3>
+                </div>
+                <div class="builify_tm_breadcrumbs">
+                  <ul>
+                    <li><a href="index.html">CGP Sarl</a></li>
+                    <li class="shape"><span></span></li>
+                    <li><span>Nos Services</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="constructify_tm_section">
+            <div class="container">
+              <div class="constructify_tm_services_list_wrap">
+                <ul class="masonry">
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/BANNER.jpeg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3>
+                              <a href="project.html">Conception des plans de construction</a>
+                            </h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Quand c'est le détail qui compte 
+                              nous faisons des bons plans respectant les normes de construction et adaptés aux besoins de nos clients
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="service.html">Voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/realisation.jpeg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3>
+                              <a href="project.html"
+                                >Execution des projets de Construction</a
+                              >
+                            </h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Au dela d'une bonne conception des plans de construction, nous executons une bonne construction clé conforme au plan concu.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="project.html">Voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/510x380.jpg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3>
+                              <a href="project.html"
+                                >Conception des plans de plomberie</a
+                              >
+                            </h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Nous mettons en valeur une bonne conception des plans, chose qui nous définit et la plomberie est bien faite suite à des bons plans concus au préalable.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="project.html">Voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/510x380.jpg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3>
+                              <a href="project.html">Réalisation des plans de plomberie</a>
+                            </h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Chez CGP sarl l'esprit de professionnalisme nous anime à chaque fois qu'il s'agit de concevoir et réaliser.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="project.html">Voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/510x380.jpg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3>
+                              <a href="service-single.html">Assainissement</a>
+                            </h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Nous intervenons pour l'assainissement des systèmes de collecte des eaux pluviales, 
+                              garantissant un drainage efficace et évitant les risques d'inondation.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="project.html">Voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="inner">
+                      <div class="service_image">
+                        <img src="img/services/510x380.jpg" alt="" />
+                        <a href="project.html"
+                          ><div class="image"></div
+                        ></a>
+                      </div>
+                      <div class="list_definitions_wrap">
+                        <div class="titles">
+                          <div class="title_holder">
+                            <h3><a href="project.html">Vente et fourniture de matériel de construction</a></h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              Nous fournissions le matériel pour la construction générale et plomberie
+                            </p>
+                          </div>
+                        </div>
+                        <div class="read_more_wrap">
+                          <div class="read_more_in">
+                            <a href="project.html">voir plus</a>
+                          </div>
+                        </div>
+                        <span class="shape_triangle"></span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="constructify_tm_section">
+            <div class="container">
+              <div class="constructify_tm_pagination">
+                <ul>
+                  <li><span>Retour</span></li>
+                  <li class="active"><a href="#">Suivant</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /SERVICES -->
+
+         <!-- FOOTER -->
+     <footer class="constructify_tm_footer_wrap">
+      <div class="constructify_tm_universal_parallax_wrap">
+        <div class="main_bg">
+          <div class="overlay_image footer jarallax" data-speed="0"></div>
+          <div class="overlay_video"></div>
+          <div class="overlay_color footer"></div>
+        </div>
+        <div class="main_content footer">
+          <div class="constructify_tm_subscribe_wrap">
+            <div class="container">
+              <div class="inner_wrap">
+                <div class="left_wrap">
+                  <div class="book">
+                    <img class="svg" src="img/svg/open-book.svg" alt="" />
+                  </div>
+                  <div class="text">
+                    <p>
+                      Newsletter<span></span> Soyez informé sur tous ce que nous réalisons
+                    </p>
+                  </div>
+                </div>
+                <div class="right_wrap">
+                  <input
+                    class="email"
+                    type="email"
+                    placeholder="Entrez votre adresse E-mail ici"
+                  />
+                  <input class="button" type="button" value="Abonnez-vous" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="constructify_tm_footer_wrap">
+            <div class="container">
+              <div
+                class="constructify_tm_list_wrap footer"
+                data-column="3"
+                data-space="40"
+              >
+                <ul class="constructify_list">
+                  <li>
+                    <div class="inner">
+                      <div class="footer_section_title">
+                        <h3>A propos de nous</h3>
+                      </div>
+                      <div class="definition">
+                        <p>
+                          Dédié pour livrer les meilleurs services à tout le monde
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inner">
+                      <div class="footer_section_title">
+                        <h3>Heures de services</h3>
+                      </div>
+                      <div class="inner_list">
+                        <ul>
+                          <li>
+                            <div class="wrap">
+                              <span class="left">Lundi-Vendredi:</span>
+                              <span class="right">8h à 16h</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="wrap">
+                              <span class="left">Samedi:</span>
+                              <span class="right">10h à 15h</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="wrap">
+                              <span class="left">Dimanche:</span>
+                              <span class="right">Pas de service</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inner">
+                      <div class="footer_section_title">
+                        <h3>Accès Rapide</h3>
+                      </div>
+                      <div class="helpful_links">
+                        <div class="inner_list">
+                          <ul>
+                            <li><a href="#">Acceuil</a></li>
+                            <li><a href="#">Nos services</a></li>
+                            <li><a href="#">Projets</a></li>
+                            <!-- <li><a href="#">Blog</a></li>    -->
+                            <li><a href="#">Politique</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom_wrap">
+        <div class="container">
+          <div class="links_wrap">
+            <ul>
+              <li><a href="about.html">Equipe</a></li>
+              <li><a href="about.html">Mission</a></li>
+              <li><a href="about.html">Vision</a></li>
+              <li><a href="about.html">Politique et confidentialité</a></li>
+              <li><a href="project.html">Carrière</a></li>
+            </ul>
+          </div>
+          <div class="copyright">
+            <p>
+              &copy; 2024
+              <a class="constructify" href="#">CGP Sarl</a>. All
+              rights reserved. Designed by
+              <a class="marketify" href="smawotech.github.io">Smart World Technology SARL</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /FOOTER -->
+  </div>
+  <!-- /RIGHTPART -->
+</div>
+
+<!-- BORDER -->
+<div class="constructify_tm_bottom_border pattern_border"></div>
+<!-- /BORDER -->
+
+<!-- TO TOP -->
+<a class="constructify_tm_totop" href="#">
+  <span class="shape"></span>
+  <span class="name">To Top</span>
+</a>
+<!-- /TO TOP -->
+</div>
+<!-- / WRAPPER ALL -->
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<!--[if lt IE 10]>
+<script type="text/javascript" src="js/ie8.js"></script>
+<![endif]-->
+<script src="js/init.js"></script>
+<!-- /SCRIPTS -->
+</body>
+</html>

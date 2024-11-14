@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Constructify" />
+    <meta name="author" content="Agaba Francis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CGP Sarl | Accueil</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" />
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet" />
+    <style>
+        /* Ajoutez ici les styles CSS pour la navigation */
+        body.home nav {
+            background: transparent; /* Fond transparent sur la page d'accueil */
+        }
+
+        body:not(.home) nav {
+            background: #fff; /* Fond blanc sur les autres pages */
+        }
+
+        @media (max-width: 768px) {
+            #navbar {
+                display: none; /* Cache le menu desktop */
+            }
+            .constructify_tm_mobile_menu_wrap {
+                display: block; /* Affiche le menu mobile */
+            }
+        }
+        @media (min-width: 769px) {
+            .constructify_tm_mobile_menu_wrap {
+                display: none; /* Cache le menu mobile */
+            }
+            #navbar {
+                display: flex; /* Affiche le menu desktop */
+                align-items: center; /* Centre verticalement */
+            }
+            #navbar .logo {
+                margin-right: auto; /* Espace entre le logo et le menu */
+            }
+        }
+        .menu_list_wrap {
+            display: none; /* Cache par défaut le menu mobile */
+        }
+        .menu_list_wrap.active {
+            display: block; /* Affiche lorsque la classe active est ajoutée */
+        }
+    </style>
+</head>
+
+<body class="home"> <!-- Ajoutez 'home' si vous êtes sur la page d'accueil -->
+<header>
+    <div class="container">
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#"><img src="img/mobile-logo.png" alt="Logo" style="height: 50px;"></a> <!-- Ajoutez ici le chemin de votre logo -->
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A Propos</a></li>
+                <li><a href="service.html">Nos services</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="main_rightpart">
+            <div class="constructify_tm_mobile_menu_wrap">
+                <div class="topbar_wrap">
+                    <div class="inner_wrap"></div>
+                    <div class="bg"></div>
+                </div>
+                <div class="hamburger_wrap">
+                    <div class="logo_wrap">
+                        <div class="logo">
+                            <a href="#"><img src="img/mobile-logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="trigger_wrap">
+                        <div class="hamburger hamburger--collapse-r">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="nav">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="service.html">Nos services</a></li>
+                        <li><a href="project.html">Projets</a></li>
+                        <!-- <li><a href="blog.html">Blog</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    // JavaScript pour ajouter la classe 'fixed' au header après le scroll
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        if (window.scrollY > 0) {
+            header.classList.add('fixed');
+        } else {
+            header.classList.remove('fixed');
+        }
+    });
+
+    // JavaScript pour afficher/cacher le menu mobile
+    document.querySelector('.hamburger_wrap .trigger_wrap').addEventListener('click', function() {
+        var menuList = document.querySelector('.menu_list_wrap');
+        menuList.classList.toggle('active');
+    });
+</script>
+</body>
+
+   
+  <script>
+    // JavaScript pour ajouter la classe 'fixed' au header après le scroll
+    window.addEventListener('scroll', function() {
+      var header = document.querySelector('header');
+      if (window.scrollY > 0) {
+        header.classList.add('fixed');
+      } else {
+        header.classList.remove('fixed');
+      }
+    });
+  </script>
+  <BR>
+  <BR><br><br> 
+
+          <!-- PROJECTS SINGLE -->
+          <div class="constructify_tm_section">
+            <div class="constructify_tm_justified_wrap gallery_zoom">
+              <a class="zoom" href="img/slider/8.jpg">
+                <img src="img/slider/8.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/9.jpg">
+                <img src="img/slider/9.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/10.jpg">
+                <img src="img/slider/10.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/11.jpg">
+                <img src="img/slider/11.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/12.jpg">
+                <img src="img/slider/12.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/13.jpg">
+                <img src="img/slider/13.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/1.jpg">
+                <img src="img/slider/1.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/7.jpg">
+                <img src="img/slider/7.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/4.jpg">
+                <img src="img/slider/4.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+              <a class="zoom" href="img/slider/14.jpg">
+                <img src="img/slider/14.jpg" alt="" />
+                <span class="overlay"></span>
+                <span class="shape"><span></span></span>
+              </a>
+            </div>
+          </div>
+          <div class="constructify_tm_section">
+            <div class="container">
+              <div class="constructify_tm_justified_content">
+                <div class="leftpart">
+                  <div class="title_holder">
+                    <h3>Nos projets</h3>
+                  </div>
+                  <div class="definition">
+                    <p class="bold">
+                      Chez CGP, nous nous engageons à offrir des services de construction générale et de plomberie qui allient expertise, fiabilité et satisfaction client. 
+                      Forts de notre expérience, nous mettons tout en œuvre pour que chaque projet soit réalisé dans les meilleures conditions, avec un souci constant de la qualité, des délais et du respect des normes.
+                      </p>
+                      <!-- <p class="bold">
+                      Prise en charge sur-mesure : Dès le premier contact, nous prenons le temps d’écouter vos besoins et de comprendre vos attentes. 
+                      Que vous ayez un projet de construction, de rénovation ou de plomberie, 
+                      nous analysons minutieusement votre demande pour vous proposer une solution adaptée, conforme à vos exigences et à votre budget.
+                      Planification détaillée et rigoureuse : Une fois la solution validée, nous établissons un plan de travail précis. 
+                      Nous nous engageons à respecter les délais fixés et à optimiser l’organisation des équipes et 
+                      des ressources pour garantir un chantier efficace et sans accroc.
+                      Des équipes qualifiées et un travail soigné : Nos équipes sont composées de professionnels qualifiés, expérimentés et formés aux dernières normes de sécurité et de qualité. 
+                      Que ce soit pour des travaux de construction ou de plomberie, chaque intervention est réalisée avec soin et dans le respect des standards les plus élevés.
+                      </p>
+                    <p class="bold">
+                      Transparence et communication continue : Chez CGP, la transparence est essentielle. Nous vous tenons informé à chaque étape de l’avancement de vos travaux. 
+                      Nous restons disponibles pour répondre à vos questions et pour ajuster nos interventions en fonction de vos besoins. Vous êtes constamment impliqué dans le projet.
+                    </p>
+                      <p class="bold">
+                      Respect des normes et de l’environnement : Tous nos travaux respectent les normes en vigueur et sont réalisés avec des matériaux de qualité, durables et respectueux de l’environnement. 
+                      Nous nous assurons que chaque intervention contribue à la sécurité et à la pérennité de vos installations.
+                    </p>
+                      <p class="bold">
+                      Suivi après intervention : Une fois les travaux terminés, CGP assure un suivi complet pour garantir la satisfaction totale de ses clients. Nous restons disponibles pour toute maintenance, 
+                      réparation ou conseil après la fin du chantier.
+                    </p>
+                    <p class="bold">
+                      Avec CGP, vous choisissez une entreprise de construction et de plomberie qui place votre satisfaction au cœur de ses priorités. 
+                      Notre objectif est de vous offrir des résultats à la hauteur de vos attentes, en toute sérénité et confiance.
+                    </p> -->
+                  </div>
+                  <div class="constructify_tm_share_wrap">
+                    <label>Share:</label>
+                    <ul>
+                      <li>
+                        <a href="https://web.facebook.com/profile.php?id=100089181925925"><i class="xcon-facebook"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="xcon-twitter"></i></a>
+                      </li>
+                      <li>
+                        <a href="#"><i class="xcon-instagram"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="constructify_tm_project_video">
+                    <span>
+                      <img class="svg" src="img/svg/play.svg" alt="" />
+                    </span>
+                    <a class="project_time" href="#">View Project Time Lapse</a>
+                    <a
+                      class="project_video_button popup-youtube"
+                      href="https://www.youtube.com/watch?v=se4yc09w7Ic"
+                    ></a>
+                  </div>
+                </div>
+                <div class="rightpart">
+                  <div class="infobox">
+                    <ul>
+                      <li>
+                        <label>Value</label>
+                        <span>€3,400,000,000</span>
+                      </li>
+                      <li>
+                        <label>Client</label>
+                        <span>Germany and Denmark Governments</span>
+                      </li>
+                      <li>
+                        <label>Architect</label>
+                        <span>Vinci Company</span>
+                      </li>
+                      <li>
+                        <label>Location</label>
+                        <span>Germany-Denmark</span>
+                      </li>
+                      <li>
+                        <label>Completion Date</label>
+                        <span>02.05.2005</span>
+                      </li>
+                      <li>
+                        <label>Square Footage</label>
+                        <span>18-km</span>
+                      </li>
+                    </ul>
+                    <div class="first_square"></div>
+                    <div class="second_square"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="constructify_tm_pagination">
+                <ul>
+                  <li><span>Prev</span></li>
+                  <li class="active"><a href="#">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /PROJECTS SINGLE -->
+
+        <!-- FOOTER -->
+        <footer class="constructify_tm_footer_wrap">
+          <div class="constructify_tm_universal_parallax_wrap">
+            <div class="main_bg">
+              <div class="overlay_image footer jarallax" data-speed="0"></div>
+              <div class="overlay_video"></div>
+              <div class="overlay_color footer"></div>
+            </div>
+            <div class="main_content footer">
+              <div class="constructify_tm_subscribe_wrap">
+                <div class="container">
+                  <div class="inner_wrap">
+                    <div class="left_wrap">
+                      <div class="book">
+                        <img class="svg" src="img/svg/open-book.svg" alt="" />
+                      </div>
+                      <div class="text">
+                        <p>
+                          Newsletter<span></span> Soyez informé sur tous ce que nous réalisons
+                        </p>
+                      </div>
+                    </div>
+                    <div class="right_wrap">
+                      <input
+                        class="email"
+                        type="email"
+                        placeholder="Entrez votre adresse E-mail ici"
+                      />
+                      <input class="button" type="button" value="Abonnez-vous" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="constructify_tm_footer_wrap">
+                <div class="container">
+                  <div
+                    class="constructify_tm_list_wrap footer"
+                    data-column="3"
+                    data-space="40"
+                  >
+                    <ul class="constructify_list">
+                      <li>
+                        <div class="inner">
+                          <div class="footer_section_title">
+                            <h3>A propos de nous</h3>
+                          </div>
+                          <div class="definition">
+                            <p>
+                              We are an award winning construction company
+                              focused on user-driven outcomes. We strive to
+                              create meaningful connections for users through
+                              considered.
+                            </p>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="inner">
+                          <div class="footer_section_title">
+                            <h3>Heures de services</h3>
+                          </div>
+                          <div class="inner_list">
+                            <ul>
+                              <li>
+                                <div class="wrap">
+                                  <span class="left">Lundi-Vendredi:</span>
+                                  <span class="right">8h à 16h</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="wrap">
+                                  <span class="left">Samedi:</span>
+                                  <span class="right">10h à 15h</span>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="wrap">
+                                  <span class="left">Dimanche:</span>
+                                  <span class="right">Pas de service</span>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="inner">
+                          <div class="footer_section_title">
+                            <h3>Accès Rapide</h3>
+                          </div>
+                          <div class="helpful_links">
+                            <div class="inner_list">
+                              <ul>
+                                <li><a href="index.html">Acceuil</a></li>
+                                <li><a href="service.html">Nos services</a></li>
+                                <li><a href="project.html">Projets</a></li>
+                                <!-- <li><a href="#">Blog</a></li>    -->
+                                <li><a href="about.html">Politique</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom_wrap">
+            <div class="container">
+              <div class="links_wrap">
+                <ul>
+                  <li><a href="about.html">Equipe</a></li>
+                  <li><a href="about.html">Mission</a></li>
+                  <li><a href="about.html">Vision</a></li>
+                  <li><a href="about.html">Politique et confidentialité</a></li>
+                  <li><a href="project.html">Carrière</a></li>
+                </ul>
+              </div>
+              <div class="copyright">
+                <p>
+                  &copy; 2024
+                  <a class="constructify" href="#">CGP Sarl</a>. All
+                  rights reserved. Designed by
+                  <a class="marketify" href="smawotech.github.io">Smart World Technology SARL</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- /FOOTER -->
+      </div>
+      <!-- /RIGHTPART -->
+    </div>
+
+    <!-- BORDER -->
+    <div class="constructify_tm_bottom_border pattern_border"></div>
+    <!-- /BORDER -->
+
+    <!-- TO TOP -->
+    <a class="constructify_tm_totop" href="#">
+      <span class="shape"></span>
+      <span class="name">To Top</span>
+    </a>
+    <!-- /TO TOP -->
+  </div>
+  <!-- / WRAPPER ALL -->
+
+  <!-- SCRIPTS -->
+  <script src="js/jquery.js"></script>
+  <script src="js/plugins.js"></script>
+  <!--[if lt IE 10]>
+    <script type="text/javascript" src="js/ie8.js"></script>
+  <![endif]-->
+  <script src="js/init.js"></script>
+  <!-- /SCRIPTS -->
+</body>
+</html>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Constructify" />
+    <meta name="author" content="Agaba Francis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CGP Sarl | Accueil</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" />
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet" />
+    <style>
+        /* Ajoutez ici les styles CSS pour la navigation */
+        body.home nav {
+            background: transparent; /* Fond transparent sur la page d'accueil */
+        }
+
+        body:not(.home) nav {
+            background: #fff; /* Fond blanc sur les autres pages */
+        }
+
+        @media (max-width: 768px) {
+            #navbar {
+                display: none; /* Cache le menu desktop */
+            }
+            .constructify_tm_mobile_menu_wrap {
+                display: block; /* Affiche le menu mobile */
+            }
+        }
+        @media (min-width: 769px) {
+            .constructify_tm_mobile_menu_wrap {
+                display: none; /* Cache le menu mobile */
+            }
+            #navbar {
+                display: flex; /* Affiche le menu desktop */
+                align-items: center; /* Centre verticalement */
+            }
+            #navbar .logo {
+                margin-right: auto; /* Espace entre le logo et le menu */
+            }
+        }
+        .menu_list_wrap {
+            display: none; /* Cache par défaut le menu mobile */
+        }
+        .menu_list_wrap.active {
+            display: block; /* Affiche lorsque la classe active est ajoutée */
+        }
+    </style>
+</head>
+
+<body class="home"> <!-- Ajoutez 'home' si vous êtes sur la page d'accueil -->
+<header>
+    <div class="container">
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#"><img src="img/mobile-logo.png" alt="Logo" style="height: 50px;"></a> <!-- Ajoutez ici le chemin de votre logo -->
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">A Propos</a></li>
+                <li><a href="service.html">Nos services</a></li>
+                <li><a href="project.html">Projets</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="main_rightpart">
+            <div class="constructify_tm_mobile_menu_wrap">
+                <div class="topbar_wrap">
+                    <div class="inner_wrap"></div>
+                    <div class="bg"></div>
+                </div>
+                <div class="hamburger_wrap">
+                    <div class="logo_wrap">
+                        <div class="logo">
+                            <a href="#"><img src="img/mobile-logo.png" alt="Logo"></a>
+                        </div>
+                    </div>
+                    <div class="trigger_wrap">
+                        <div class="hamburger hamburger--collapse-r">
+                            <div class="hamburger-box">
+                                <div class="hamburger-inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="nav">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="service.html">Nos services</a></li>
+                        <li><a href="project.html">Projets</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script>
+    // JavaScript pour ajouter la classe 'fixed' au header après le scroll
+    window.addEventListener('scroll', function() {
+        var header = document.querySelector('header');
+        if (window.scrollY > 0) {
+            header.classList.add('fixed');
+        } else {
+            header.classList.remove('fixed');
+        }
+    });
+
+    // JavaScript pour afficher/cacher le menu mobile
+    document.querySelector('.hamburger_wrap .trigger_wrap').addEventListener('click', function() {
+        var menuList = document.querySelector('.menu_list_wrap');
+        menuList.classList.toggle('active');
+    });
+</script>
+</body>
+
+  
+          <!-- ABOUT -->
+          <div class="constructify_tm_section">
+            <div class="constructify_tm_main_title_holder">
+              <div class="container">
+                <div class="title_holder">
+                  <h3>A Propos de nous</h3>
+                </div>
+                <!-- <div class="builify_tm_breadcrumbs">
+                  <ul>
+                    <li><a href="index.html">CGP Sarl</a></li>
+                    <li class="shape"><span></span></li>
+                    <li><span>Qui sommes nous?</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="constructify_tm_section">
+            <div class="constructify_tm_about_wrap">
+              <div class="container">
+                <div class="subtitle"> -->
+                  <div class="about_service_list">
+                  <p>CGP est une entreprise de construction et de plomberie professionnelle, établie à Kalemie depuis 2022. Enregistrée en tant que Société à Responsabilité Limitée (SARL), 
+                    CGP s’est rapidement imposée comme un acteur de confiance dans le secteur. Grâce à une équipe expérimentée et dévouée, l'entreprise répond à une forte demande de ses clients, 
+                    offrant des services de haute qualité qui allient expertise technique et écoute des besoins.
+  
+                    Avec un engagement fort envers l'excellence et la satisfaction client, 
+                    CGP se spécialise dans divers projets, allant de la construction de bâtiments à des travaux de plomberie complexes. 
+                    La société se distingue par son professionnalisme, sa transparence et son souci du détail, garantissant des réalisations durables et conformes aux normes en vigueur.
+                    
+                    </p>
+
+                </div>
+                <div class="about_service_list">
+                  <h3>Performance Excellence</h3>
+                  <p>
+                    CGP s'engage à atteindre l'excellence dans tous ses domaines d'activité, en mettant en œuvre des pratiques qui favorisent la qualité et l’efficacité.
+                  </p>
+                </div>
+              </div>
+              <div class="constructify_tm_about_counter_wrap">
+                <div class="container">
+                  <div class="inner_counter">
+                    <div class="leftbox">
+                      <div
+                        class="constructify_tm_counter_wrap"
+                        data-col="4"
+                        data-delay="300"
+                      >
+                        <ul class="constructify_tm_counter_list">
+                          <li>
+                            <div class="inner">
+                              <h3>
+                                <span
+                                  >+<span
+                                    class="constructify_tm_counter"
+                                    data-from="0"
+                                    data-to="300"
+                                    data-speed="3000"
+                                    >0</span
+                                  ></span
+                                >
+                              </h3>
+                              <span style="color: #fff;">Projets Réalisés</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="inner">
+                              <h3>
+                                <span
+                                  >+<span
+                                    class="constructify_tm_counter"
+                                    data-from="0"
+                                    data-to="150"
+                                    data-speed="3000"
+                                    >0</span
+                                  ></span
+                                >
+                              </h3>
+                              <span style="color: #fff;">clients</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="inner">
+                              <h3>
+                                <span
+                                  >+<span
+                                    class="constructify_tm_counter"
+                                    data-from="0"
+                                    data-to="20"
+                                    data-speed="3000"
+                                    >0</span
+                                  ></span
+                                >
+                              </h3>
+                              <span style="color: #fff;">Professionnels</span>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="inner">
+                              <h3>
+                                <span
+                                  >+<span
+                                    class="constructify_tm_counter"
+                                    data-from="0"
+                                    data-to="5"
+                                    data-speed="3000"
+                                    >0</span
+                                  ></span
+                                >
+                              </h3>
+                              <span style="color: #fff;">Partenaires</span>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="rightbox">
+                      <div class="inner_rightbox">
+                        <span class="top_title">Vous méritez le meilleur</span>
+                        <h3 class="title">Et nous sommes le meilleur choix</h3>
+                        <p class="text">
+                          Choisir CGP, c'est opter pour un partenaire fiable qui met un point d'honneur à réaliser vos projets avec rigueur et passion.
+                        </p>
+                        <div class="counter_image_wrap gallery_zoom">
+                          <ul>
+                            <li>
+                              <div class="inner">
+                                <a class="zoom" href="img/portfolio/projet 4.JPG"
+                                  ><div class="image"></div
+                                ></a>
+                                <div class="overlay">
+                                  <div class="in">
+                                    <span></span>
+                                  </div>
+                                </div>
+                                <a
+                                  class="about_zoom zoom"
+                                  href="img/portfolio/projet 5.JPG"
+                                ></a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="inner">
+                                <a class="zoom" href="img/portfolio/projet 3.JPG"
+                                  ><div class="image"></div
+                                ></a>
+                                <div class="overlay">
+                                  <div class="in">
+                                    <span></span>
+                                  </div>
+                                </div>
+                                <a
+                                  class="about_zoom zoom"
+                                  href="img/portfolio/projet 2.JPG"
+                                ></a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="inner">
+                                <a class="zoom" href="img/portfolio/projet 2.JPG"
+                                  ><div class="image"></div
+                                ></a>
+                                <div class="overlay">
+                                  <div class="in">
+                                    <span></span>
+                                  </div>
+                                </div>
+                                <a
+                                  class="about_zoom zoom"
+                                  href="img/portfolio/projet 2.JPG"
+                                ></a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="counter_png"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="about_service_list client">
+                  <h3>Vision</h3>
+                  <p>
+                    Être le leader reconnu dans le domaine de la construction et de la plomberie à Kalemie, en offrant des solutions innovantes et durables qui dépassent les attentes de nos clients. 
+                    Nous aspirons à établir de nouveaux standards de qualité et d’excellence dans notre secteur, tout en contribuant au développement durable de notre communauté.
+                  </p>
+                </div>
+              </div>
+              <div class="container">
+                <div class="about_service_list">
+                  <h3>Mission</h3>
+                  <p>
+                    Notre mission est de fournir des services de construction et de plomberie de haute qualité, en alliant expertise technique et écoute attentive des besoins de nos clients. 
+                    Nous nous engageons à réaliser chaque projet avec professionnalisme, transparence et souci du détail, tout en garantissant la satisfaction totale de nos clients. En investissant dans le développement de nos équipes et en adoptant des pratiques durables, 
+                    nous visons à bâtir des relations de confiance et à contribuer à un avenir meilleur pour notre communauté.
+                  </p>
+                </div>
+              </div>
+                <!-- Liens CDN pour Slick CSS et Slick Theme CSS (optionnel si vous voulez un carrousel) -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <!-- Styles CSS -->
+  <style>
+    /* Style général du corps de la page */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .constructify_tm_section {
+      padding: 50px 0;
+      background-color: #ffffff;
+    }
+
+    .constructify_tm_about_team_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Centrer les éléments */
+      gap: 30px; /* Espacement entre les éléments */
+      margin-top: 30px;
+    }
+
+    .constructify_tm_about_team_wrap ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .constructify_tm_about_team_wrap li {
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 280px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      margin-bottom: 30px;
+    }
+
+    .constructify_tm_about_team_wrap li:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .image_wrap {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      border-bottom: 2px solid #eee;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .image_wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+
+    .main_definitions {
+      padding: 20px;
+    }
+
+    .main_definitions h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .main_definitions span {
+      font-size: 14px;
+      color: #777;
+    }
+
+    /* Effet d'agrandissement des images lors du survol */
+    .image_wrap:hover img {
+      transform: scale(1.1);
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .constructify_tm_about_team_wrap li {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .constructify_tm_about_team_wrap li {
+        width: 100%;
+      }
+    }
+
+    /* Titre */
+    h2 {
+      font-size: 30px;
+      text-align: center;
+      color: #333;
+    }
+    h2 strong {
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="constructify_tm_section">
+    <div class="container">
+      <h2><span><strong>Notre équipe</strong></span></h2>
+      <div class="constructify_tm_about_team_wrap">
+        <ul>
+          <!-- Membre 1 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/blog/DG.jpg" alt="Birindwa Faustin" />
+              </div>
+              <div class="main_definitions">
+                <h3>Birindwa Faustin</h3>
+                <span>Directeur Général</span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Membre 2 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/blog/CONSEILLE.jpg" alt="David Ombeni" />
+              </div>
+              <div class="main_definitions">
+                <h3>David Ombeni</h3>
+                <span>Conseiller Principal</span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Membre 3 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/blog/SECRETAIRE.jpg" alt="Claudine Sibazuri" />
+              </div>
+              <div class="main_definitions">
+                <h3>Claudine Sibazuri</h3>
+                <span>Secrétaire & Caissière</span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Membre 4 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/about/250x190.jpg" alt="Parfait Musoka" />
+              </div>
+              <div class="main_definitions">
+                <h3>Parfait Musoka</h3>
+                <span>Administrateur Gestionnaire</span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Membre 5 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/blog/ir BTP.jpg" alt="Alpha Melias" />
+              </div>
+              <div class="main_definitions">
+                <h3>Alpha Melias</h3>
+                <span>Ingénieur BTP</span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Membre 6 -->
+          <li>
+            <div class="inner">
+              <div class="image_wrap">
+                <img src="img/about/250x190.jpg" alt="Héritier Mastaki" />
+              </div>
+              <div class="main_definitions">
+                <h3>Héritier Mastaki</h3>
+                <span>Directeur Financier</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Liens JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.team-carousel').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        dots: true,
+        arrows: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1
+            }
+          }
+        ]
+      });
+    });
+  </script>
+  </div>
+
+          <!-- FOOTER -->
+          <footer class="constructify_tm_footer_wrap">
+            <div class="constructify_tm_universal_parallax_wrap">
+              <div class="main_bg">
+                <div class="overlay_image footer jarallax" data-speed="0"></div>
+                <div class="overlay_video"></div>
+                <div class="overlay_color footer"></div>
+              </div>
+              <div class="main_content footer">
+                <div class="constructify_tm_subscribe_wrap">
+                  <div class="container">
+                    <div class="inner_wrap">
+                      <div class="left_wrap">
+                        <div class="book">
+                          <img class="svg" src="img/svg/open-book.svg" alt="" />
+                        </div>
+                        <div class="text">
+                          <p>
+                            Newsletter<span></span> Soyez informé sur tous ce que nous réalisons
+                          </p>
+                        </div>
+                      </div>
+                      <div class="right_wrap">
+                        <input
+                          class="email"
+                          type="email"
+                          placeholder="Entrez votre adresse E-mail ici"
+                        />
+                        <input class="button" type="button" value="Abonnez-vous" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="constructify_tm_footer_wrap">
+                  <div class="container">
+                    <div
+                      class="constructify_tm_list_wrap footer"
+                      data-column="3"
+                      data-space="40"
+                    >
+                      <ul class="constructify_list">
+                        <li>
+                          <div class="inner">
+                            <div class="footer_section_title">
+                              <h3>A propos de nous</h3>
+                            </div>
+                            <div class="definition">
+                              <p>
+                                We are an award winning construction company
+                                focused on user-driven outcomes. We strive to
+                                create meaningful connections for users through
+                                considered.
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="inner">
+                            <div class="footer_section_title">
+                              <h3>Heures de services</h3>
+                            </div>
+                            <div class="inner_list">
+                              <ul>
+                                <li>
+                                  <div class="wrap">
+                                    <span class="left">Lundi-Vendredi:</span>
+                                    <span class="right">8h à 16h</span>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="wrap">
+                                    <span class="left">Samedi:</span>
+                                    <span class="right">10h à 15h</span>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="wrap">
+                                    <span class="left">Dimanche:</span>
+                                    <span class="right">Pas de service</span>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="inner">
+                            <div class="footer_section_title">
+                              <h3>Accès Rapide</h3>
+                            </div>
+                            <div class="helpful_links">
+                              <div class="inner_list">
+                                <ul>
+                                  <li><a href="#">Acceuil</a></li>
+                                  <li><a href="#">Nos services</a></li>
+                                  <li><a href="#">Projets</a></li>
+                                  <li><a href="#">Blog</a></li>   
+                                  <li><a href="#">Politique</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_wrap">
+              <div class="container">
+                <div class="links_wrap">
+                  <ul>
+                    <li><a href="#">Equipe</a></li>
+                    <li><a href="#">Mission</a></li>
+                    <li><a href="#">Vision</a></li>
+                    <li><a href="#">Politique et confidentialité</a></li>
+                    <li><a href="#">Carrière</a></li>
+                  </ul>
+                </div>
+                <div class="copyright">
+                  <p>
+                    &copy; 2024
+                    <a class="constructify" href="#">CGP Sarl</a>. All
+                    rights reserved. Designed by
+                    <a class="marketify" href="smawotech.github.io">Smart World Technology SARL</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- /FOOTER -->
+        </div>
+        <!-- /RIGHTPART -->
+      </div>
+
+      <!-- BORDER -->
+      <div class="constructify_tm_bottom_border pattern_border"></div>
+      <!-- /BORDER -->
+
+      <!-- TO TOP -->
+      <a class="constructify_tm_totop" href="#">
+        <span class="shape"></span>
+        <span class="name">To Top</span>
+      </a>
+      <!-- /TO TOP -->
+    </div>
+    <!-- / WRAPPER ALL -->
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--[if lt IE 10]>
+      <script type="text/javascript" src="js/ie8.js"></script>
+    <![endif]-->
+    <script src="js/init.js"></script>
+    <!-- /SCRIPTS -->
+  </body>
+</html>
