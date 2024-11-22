@@ -913,7 +913,7 @@ section {
   .owl-item:nth-child(1)
   li
   .image {
-  background-image: url();
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(1\).jpg);
 }
 .constructify_tm_hero_header_wrap
   .carousel_wrap
@@ -921,7 +921,7 @@ section {
   .owl-item:nth-child(2)
   li
   .image {
-  background-image: url();
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(2\).jpg);
 }
 .constructify_tm_hero_header_wrap
   .carousel_wrap
@@ -929,7 +929,7 @@ section {
   .owl-item:nth-child(3)
   li
   .image {
-  background-image: url();
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(3\).jpg);
 }
 .constructify_tm_hero_header_wrap
   .carousel_wrap
@@ -937,7 +937,7 @@ section {
   .owl-item:nth-child(4)
   li
   .image {
-  background-image: url();
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(4\).jpg);
 }
 .constructify_tm_hero_header_wrap
   .carousel_wrap
@@ -945,7 +945,7 @@ section {
   .owl-item:nth-child(5)
   li
   .image {
-  background-image: url();
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(5\).jpg);
 }
 .constructify_tm_hero_header_wrap
   .carousel_wrap
@@ -953,9 +953,7 @@ section {
   .owl-item:nth-child(6)
   li
   .image {
-  background-image: url(
-    
-  );
+  background-image: url(..//img/CAROUSSEL/TEAM\ \(6\).jpg);
 }
 .constructify_tm_hero_header_wrap .overlay_color {
   position: absolute;
